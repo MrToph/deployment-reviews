@@ -1,0 +1,41 @@
+name: Validate Deployments
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out deployments
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Set up pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.10.0 --activate
+
+      - name: Install deployment dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck deployments
+        run: pnpm run typecheck
+
+      - name: Validate deployments
+        run: pnpm start
+
+      - name: Write validation summary
+        if: always()
+        run: |
+          {
+            echo "## Deployment validation"
+            echo
+            echo "See the **Validate deployments** step logs for full validation output."
+          } >> "$GITHUB_STEP_SUMMARY"
