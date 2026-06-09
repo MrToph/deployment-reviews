@@ -14,4 +14,7 @@ async function runSection(name: string, validation: () => Promise<unknown>) {
   }
 }
 
-// await runSection("Contract", () => import("./contract-validation.js"));
+await runSection("Beacon", () => import("./beacon-validation.js"));
+await runSection("Facets", () => import("./facets-validation.js"));
+await runSection("PAUFactory", () => import("./pau-factory-validation.js"));
+await runSection("AdministeredAgentFactory", () => import("./administered-agent-factory-validation.js"));
