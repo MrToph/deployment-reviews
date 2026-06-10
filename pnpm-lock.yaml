@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@cmichel/assay':
-        specifier: ^0.1.0
-        version: 0.1.0(typescript@5.9.3)
+        specifier: 0.1.1
+        version: 0.1.1(typescript@5.9.3)
       viem:
         specifier: ^2.31.0
         version: 2.52.2(typescript@5.9.3)
@@ -30,8 +30,8 @@ packages:
   '@adraffy/ens-normalize@1.11.1':
     resolution: {integrity: sha512-nhCBV3quEgesuf7c7KYfperqSS14T8bYuvJ8PcLJp6znkZpFc0AuW4qBtr8eKVyPPe/8RSr7sglCWPU5eaxwKQ==}
 
-  '@cmichel/assay@0.1.0':
-    resolution: {integrity: sha512-DJsqSlwbXLAP6Vuwu4m0rAWYR9UX3NwN+WnH46lIvxfH8vX2BDs9K+1b9A6M7ve1Y0KeVd639qizlA/OI6gIug==}
+  '@cmichel/assay@0.1.1':
+    resolution: {integrity: sha512-ZwGcZvefo64ZQhFm4h9JcBcWriOe+P8MSUo/hxMVs6QxkT1diKVrZIwC9YcHIQ5MN3ZhhbkrpCbraAXexyaGQA==}
     engines: {node: '>=20'}
 
   '@esbuild/aix-ppc64@0.28.0':
@@ -291,7 +291,7 @@ snapshots:
 
   '@adraffy/ens-normalize@1.11.1': {}
 
-  '@cmichel/assay@0.1.0(typescript@5.9.3)':
+  '@cmichel/assay@0.1.1(typescript@5.9.3)':
     dependencies:
       picocolors: 1.1.1
       viem: 2.52.2(typescript@5.9.3)

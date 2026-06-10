@@ -14,4 +14,6 @@ async function runSection(name: string, validation: () => Promise<unknown>) {
   }
 }
 
-// await runSection("Contract", () => import("./contract-validation.js"));
+await runSection("AccessControls", () => import("./access-controls-validation.js"));
+await runSection("AdministeredAgent", () => import("./administered-agent-validation.js"));
+await runSection("Controller", () => import("./controller-validation.js"));

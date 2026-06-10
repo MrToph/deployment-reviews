@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@cmichel/assay": "^0.1.0",
+    "@cmichel/assay": "0.1.1",
     "viem": "^2.31.0"
   },
   "devDependencies": {
