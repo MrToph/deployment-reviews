@@ -18,3 +18,4 @@ await runSection("Beacon", () => import("./beacon-validation.js"));
 await runSection("Facets", () => import("./facets-validation.js"));
 await runSection("PAUFactory", () => import("./pau-factory-validation.js"));
 await runSection("AdministeredAgentFactory", () => import("./administered-agent-factory-validation.js"));
+await runSection("DefaultPAUAssembler", () => import("./default-pau-assembler-validation.js"));

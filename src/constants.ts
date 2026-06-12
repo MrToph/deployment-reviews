@@ -1,11 +1,12 @@
-// https://github.com/sky-ecosystem/sky-pau-registry/blob/161bac0c17a7d2c4d4e0455e1febe401a7a36edb/src/Ethereum.sol
+// https://github.com/sky-ecosystem/sky-pau-registry/blob/327b3dc08618ea5282f5418f6153109d1e91ac76/src/Ethereum.sol
 export const contracts = {
   BEACON: "0x829dC2b7E94B1954F0764E573f2E0d45Afa28199",
   PAU_FACTORY: "0x69A5d548830AC2A4Ba90A44a2C75BDA71f97fc66",
   ADMINISTERED_AGENT_FACTORY: "0x2968c3b5478cF93B70aB1e24255d4EDBBd27a089",
+  DEFAULT_PAU_ASSEMBLER: "0xc812aAD3FaE2D3511C664374B601a9BeBFeCCa2E",
 } as const;
 
-// https://github.com/sky-ecosystem/sky-pau-registry/blob/161bac0c17a7d2c4d4e0455e1febe401a7a36edb/src/Ethereum.sol
+// https://github.com/sky-ecosystem/sky-pau-registry/blob/327b3dc08618ea5282f5418f6153109d1e91ac76/src/Ethereum.sol
 export const facets = {
   AaveFacet: "0x8CE890A96a193ff2DD4B2eA3C682326F655f6b62",
   BasinFacet: "0xC84825BCD13AEddc372400239499380376a44A39",
