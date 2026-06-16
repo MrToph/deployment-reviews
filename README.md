@@ -1,19 +1,21 @@
-# Deployment verifications
-
-See individual branches for deployment verifications per project.
-
-<!-- 
 [![Validate Deployments](https://github.com/MrToph/deployment-reviews/actions/workflows/validate.yml/badge.svg)](https://github.com/MrToph/deployment-reviews/actions/workflows/validate.yml)
 
-Source commits used for Diamond PAU deployment verification.
+## Grove Basin v1.0.0
 
-## Diamond PAU
+| Component | Address | Verification artifact/source |
+|---|---|---|
+| GroveBasinFactory | [0x78Dc98D689Fe9A1b0056ac1cDFC14722bDA6D49a](https://etherscan.io/address/0x78Dc98D689Fe9A1b0056ac1cDFC14722bDA6D49a) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| FixedRateProvider (USDS/USDC 1:1) | [0x7928A185B8137D1CD2a0996a810A04dB2837419D](https://etherscan.io/address/0x7928A185B8137D1CD2a0996a810A04dB2837419D) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| BUIDL ChronicleRateProvider | [0x69a171853575FFD41574EA80Abfc6337AcbC4d43](https://etherscan.io/address/0x69a171853575FFD41574EA80Abfc6337AcbC4d43) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| JTRSY ChronicleRateProvider | [0x29209ceCFeFa6f675E6f1f829320D67cE2b025E5](https://etherscan.io/address/0x29209ceCFeFa6f675E6f1f829320D67cE2b025E5) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| JTRSY Admin TimelockController | [0xA52dC9876aB4A9DB6dAfbb83410554086054d140](https://etherscan.io/address/0xA52dC9876aB4A9DB6dAfbb83410554086054d140) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| JTRSY GroveBasin | [0xf08943f817e1F902dEbC884c7B19Ea5764594Ac9](https://etherscan.io/address/0xf08943f817e1F902dEbC884c7B19Ea5764594Ac9) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| JTRSY UsdsUsdcPocket | [0x2Cd296095788A2741e72056D66B3Ae1fAeE23ea2](https://etherscan.io/address/0x2Cd296095788A2741e72056D66B3Ae1fAeE23ea2) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| JTRSY JTRSYTokenRedeemer | [0x7c5Ce1a1D50a6cb3Da97C9e202B3E7CD8e5b5b6c](https://etherscan.io/address/0x7c5Ce1a1D50a6cb3Da97C9e202B3E7CD8e5b5b6c) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| BUIDL Admin TimelockController | [0xdB8C7c814E9780659B23478EF4Bda9032CC9Ff34](https://etherscan.io/address/0xdB8C7c814E9780659B23478EF4Bda9032CC9Ff34) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| BUIDL GroveBasin | [0xCBa428fB052B365557DAf52b744DFfF20d5FbEdD](https://etherscan.io/address/0xCBa428fB052B365557DAf52b744DFfF20d5FbEdD) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| BUIDL UsdsUsdcPocket | [0x39548FeF138370Db06e172eF0739894b2a613DF9](https://etherscan.io/address/0x39548FeF138370Db06e172eF0739894b2a613DF9) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
+| BUIDL BUIDLTokenRedeemer | [0x73414528187A4986E2Af5D551fD14871b723E506](https://etherscan.io/address/0x73414528187A4986E2Af5D551fD14871b723E506) | [grove-basin@9c812fcb32df0475ceaf443e3db39c3302a5e56c (v1.0.0)](https://github.com/grove-labs/grove-basin/tree/9c812fcb32df0475ceaf443e3db39c3302a5e56c) |
 
-| Component | Verification artifact/source |
-|---|---|
-| Facets | `https://github.com/sky-ecosystem/diamond-pau` `fd5f09c5254ac7f1931a85e81a8d9036bd257704` (`v1.13.0-beta.0`) |
-| Beacon | `https://github.com/sky-ecosystem/diamond-pau` `fd5f09c5254ac7f1931a85e81a8d9036bd257704` (`v1.13.0-beta.0`) |
-| PAUFactory | `https://github.com/sky-ecosystem/diamond-pau` `fd5f09c5254ac7f1931a85e81a8d9036bd257704` (`v1.13.0-beta.0`) |
-| AdministeredAgentFactory | `https://github.com/sky-ecosystem/pau-administered-agent` `bfaaf709a8664d74d12604455f0365a0a12439cf` (`v1.0.0`) |
+Deployed addresses and transactions are taken from https://gist.github.com/iamchrissmith/7cc487983bdf0c00c1de6506047ab130.
 
-Address constants were taken from `https://github.com/sky-ecosystem/sky-pau-registry` at commit `161bac0c17a7d2c4d4e0455e1febe401a7a36edb` (no release tag). -->
