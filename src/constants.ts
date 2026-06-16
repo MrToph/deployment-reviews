@@ -1,8 +1,8 @@
-// Grove Basin v1.0.0 redeployment verification.
+// Grove Basin redeployment verification.
 // Deployment gist:
 // https://gist.github.com/iamchrissmith/7cc487983bdf0c00c1de6506047ab130
 // Deployed source/artifacts from audited commit:
-// https://github.com/grove-labs/grove-basin/commit/9c812fcb32df0475ceaf443e3db39c3302a5e56c
+// https://github.com/grove-labs/grove-basin/commit/be55a5dd6d53bf6d1c73de73f3c4fbd35898c1cd
 
 export const chain = "ethereum" as const;
 
